@@ -189,7 +189,7 @@ local function MakeUi(settings)
 	local text_label = Instance.new("TextLabel")
 	text_label.Font = Enum.Font.Gotham
 	text_label.RichText = true
-	text_label.Text = tostring(settings.Name) .. " - <b>Key System</b>"
+	text_label.Text = tostring(settings.Name) .. " - <b>密钥系统</b>"
 	text_label.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
 	text_label.TextSize = 14
 	text_label.BackgroundColor3 = Color3.new(1, 1, 1)
